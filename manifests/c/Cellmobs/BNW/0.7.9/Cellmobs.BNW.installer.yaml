@@ -1,0 +1,13 @@
+PackageIdentifier: Cellmobs.BNW
+PackageVersion: 0.7.9
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: bnw-0.7.9-x86_64-pc-windows-msvc\bnw.exe
+    PortableCommandAlias: bnw
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/cellmobs/bnw-releases/releases/download/v0.7.9/bnw-0.7.9-x86_64-pc-windows-msvc.zip
+    InstallerSha256: 99e88ac3cf97af255a6189cf6b828ef53942d124a75b525cd1cef4cbc8e49594
+ManifestType: installer
+ManifestVersion: 1.6.0
